@@ -11,3 +11,17 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+# Escrow Smart Contract
+
+A simple Ethereum-based escrow contract with unit tests and fuzz-style checks.
+
+## Tech Stack
+- Solidity
+- Hardhat
+- Chai + Mocha (for tests)
+
+## Running Tests
+
+```bash
+npx hardhat test
